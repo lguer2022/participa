@@ -1,0 +1,31 @@
+{
+  "name": "participa",
+  "version": "0.2.0",
+  "description": "Encuestas y competencias en vivo para clases, charlas y reuniones.",
+  "author": "Mg. Lic. Prof. Leandro Guerschberg",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.3.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}
